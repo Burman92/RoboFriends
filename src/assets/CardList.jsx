@@ -13,7 +13,9 @@ const CardList = ({robots}) =>{
     })
     return(
         <>
-        {cardArray}
+            <div>
+                {cardArray}
+            </div>
         </>
     )
 }
